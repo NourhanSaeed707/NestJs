@@ -8,3 +8,8 @@
  ## What is DTO?
  - DTO is the short name of Data Transfer Object. DTO is used in order to validate incoming requests. 
 The DTO on its own is more of a guideline for the developer and those who consume the API to know what kind of shape the request body expects to be, it doesn’t actually run any validations on its own!!!.
+
+## Why we should use DTO?
+- There are a few other important concepts in Nest. js: DTO: Data transfer object is an object that defines how data will be sent over the network. Interfaces: TypeScript interfaces are used for type-checking and defining the types of data that can be passed to a controller or a Nest service.
+
+
