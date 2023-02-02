@@ -12,4 +12,7 @@ The DTO on its own is more of a guideline for the developer and those who consum
 ## Why we should use DTO?
 - There are a few other important concepts in Nest. js: DTO: Data transfer object is an object that defines how data will be sent over the network. Interfaces: TypeScript interfaces are used for type-checking and defining the types of data that can be passed to a controller or a Nest service.
 
+# Modules
+- Both the controllers are provider classes are defined in the module. You can decide to create a different module for different functions, for example, the users’ module for all users’ functions. These sub-modules would be imported to the app module which is the main app module for our project. Other needed modules are also imported in the module.ts file, such as the typeorm module, configuration module, and so on.
+
 
