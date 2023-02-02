@@ -3,3 +3,8 @@
 
 # Providers:
 - Providers are a fundamental concept in Nest. Many of the basic Nest classes may be treated as a provider – services, repositories, factories, helpers, and so on. The main idea of a provider is that it can be injected as a dependency; this means objects can create various relationships with each other, and the function of "wiring up" instances of objects can largely be delegated to the Nest runtime system.
+
+# DTOs:
+ ## What is DTO?
+ - DTO is the short name of Data Transfer Object. DTO is used in order to validate incoming requests. 
+The DTO on its own is more of a guideline for the developer and those who consume the API to know what kind of shape the request body expects to be, it doesn’t actually run any validations on its own!!!.
