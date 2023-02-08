@@ -3,6 +3,13 @@
 
 # Providers:
 - Providers are a fundamental concept in Nest. Many of the basic Nest classes may be treated as a provider – services, repositories, factories, helpers, and so on. The main idea of a provider is that it can be injected as a dependency; this means objects can create various relationships with each other, and the function of "wiring up" instances of objects can largely be delegated to the Nest runtime system.
+- Providers such as services, repository .
+
+# Service:
+- In enterprise applications, we follow the SOLID principle, where S stands for Single Responsibility.
+- The controllers are responsible for accepting HTTP requests from the client and providing a response. For providing the response, you may need to connect to some external source for data.
+- If we add the code to connect to the external source inside, we are not following the single responsibility principle.
+- To avoid this issue, you use services, which will be responsible for providing some data, which can be reused across the application. It can also hold some validation logic or logic to validate users.
 
 # DTOs:
  ## What is DTO?
