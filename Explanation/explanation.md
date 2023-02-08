@@ -10,6 +10,7 @@
 - The controllers are responsible for accepting HTTP requests from the client and providing a response. For providing the response, you may need to connect to some external source for data.
 - If we add the code to connect to the external source inside, we are not following the single responsibility principle.
 - To avoid this issue, you use services, which will be responsible for providing some data, which can be reused across the application. It can also hold some validation logic or logic to validate users.
+- it will added @injectable decoratore that mean every class has injectable decoratore that mean this class can be injected inside other classes like service can be injected inside controller.
 
 # DTOs:
  ## What is DTO?
